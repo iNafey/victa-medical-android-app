@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidlogin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidLogin">
+        <activity
+            android:name=".ScenarioView"
+            android:exported="false" />
+        <activity
+            android:name=".SymptomPopUp"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".AddAllergyPopUp"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".AddPastTreatmentPopUp"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".AddPastDiagnosisPopUp"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".AddScenarioDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AddScenarioSearch"
+            android:exported="false" />
+        <activity
+            android:name=".PatientViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".cp_geo_epi_factors"
+            android:exported="false" />
+        <activity
+            android:name=".cp_pro_background"
+            android:exported="false" />
+        <activity
+            android:name=".cp_ethnicity_information"
+            android:exported="false" />
+        <activity
+            android:name=".CreatePatient"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

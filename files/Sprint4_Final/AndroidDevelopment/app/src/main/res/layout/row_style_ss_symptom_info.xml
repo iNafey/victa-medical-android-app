@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EAE8E8"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/textViewStepNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewSSSymptomType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewStepNo"
+        android:fontFamily="@font/fira_sans_semibold"
+        android:text="Symptom Type" />
+
+    <TextView
+        android:id="@+id/textViewSSTypeData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewStepNo"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/textViewSSSymptomType"
+        android:fontFamily="@font/fira_sans_semibold"
+        android:text="Text" />
+
+    <TextView
+        android:id="@+id/textViewSSDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSSSymptomType"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/fira_sans_semibold"
+        android:text="Description" />
+
+    <TextView
+        android:id="@+id/textViewSSDescData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSSTypeData"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/textViewSSSymptomType"
+        android:fontFamily="@font/fira_sans_semibold"
+        android:text="Text" />
+
+</RelativeLayout>

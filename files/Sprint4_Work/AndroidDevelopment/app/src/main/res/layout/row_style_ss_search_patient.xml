@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:text="Scenario Code:"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/scenarioCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/textViewCode"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:text="Code ID"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewSSSearchPatientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scenarioCode"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/oxygen_bold"
+        android:text="Patient's name:"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/ssSearchPatientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/scenarioCode"
+        android:layout_toRightOf="@id/textViewSSSearchPatientName"
+        android:fontFamily="@font/oxygen_bold"
+        android:text="Patient's name"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

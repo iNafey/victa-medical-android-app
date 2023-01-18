@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".AddScenarioSearch">
+
+    <TextView
+        android:id="@+id/textViewStartScenarioCode"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:text="Search Patient"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="40sp"
+         />
+
+    <AutoCompleteTextView
+        android:id="@+id/editTextSSScenarioCode"
+        android:layout_below="@+id/textViewStartScenarioCode"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/searchicon"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/oxygen_light"
+        android:hint="Enter patient's full name"
+        android:paddingStart="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:popupBackground="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scenarioListSS"
+        android:layout_below="@id/editTextSSScenarioCode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>

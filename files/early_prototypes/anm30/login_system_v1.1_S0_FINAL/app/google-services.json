@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "506893286005",
+    "firebase_url": "https://victa-online-db-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "victa-online-db",
+    "storage_bucket": "victa-online-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506893286005:android:4443cfefbc66a54790563c",
+        "android_client_info": {
+          "package_name": "com.example.androidlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506893286005-7ck1ndpceffr53a33rhd3kt3qbp9akl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEXEq67F2_E7jSEDvgqDjyrGkhnM38900"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506893286005-7ck1ndpceffr53a33rhd3kt3qbp9akl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

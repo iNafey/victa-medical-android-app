@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mesh/OneDrive/Documents/UOL SCHOOL WORK/year 2/CO2201/Semester 2/group-22/files/AndroidDevelopment/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/drawable-anydpi/back.xml" value="0.3765" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.378" />
+        <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.389" />
+        <entry key="app/src/main/res/drawable/dashboardwidgetsbg.xml" value="0.335" />
+        <entry key="app/src/main/res/drawable/dimpatient_bg.xml" value="0.33" />
+        <entry key="app/src/main/res/drawable/ic_baseline_security_24.xml" value="0.335" />
+        <entry key="app/src/main/res/drawable/ic_calendar_today.xml" value="0.335" />
+        <entry key="app/src/main/res/drawable/ic_email.xml" value="0.378" />
+        <entry key="app/src/main/res/drawable/ic_person.xml" value="0.2425" />
+        <entry key="app/src/main/res/drawable/ic_school.xml" value="0.389" />
+        <entry key="app/src/main/res/drawable/patients.xml" value="0.378" />
+        <entry key="app/src/main/res/drawable/roundcorner.xml" value="0.367" />
+        <entry key="app/src/main/res/drawable/search.xml" value="0.2425" />
+        <entry key="app/src/main/res/drawable/white_box.xml" value="0.378" />
+        <entry key="app/src/main/res/layout/activity_add_scenario_details.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_add_scenario_search.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_assearch.xml" value="0.2616822429906542" />
+        <entry key="app/src/main/res/layout/activity_cp_ethnicity_information.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_cp_geo_epi_factors.xml" value="0.38076273600260413" />
+        <entry key="app/src/main/res/layout/activity_cp_pro_background.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_create_patient.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_ethnicity_information.xml" value="0.3532608695652174" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.4277531941731771" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3532608695652174" />
+        <entry key="app/src/main/res/layout/activity_patient_adapter.xml" value="0.21145833333333333" />
+        <entry key="app/src/main/res/layout/activity_patient_view.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.21145833333333333" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.21145833333333333" />
+        <entry key="app/src/main/res/layout/activity_scenario_view.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_scenario_view2.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_symptom_pop_up.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/addallergieswindow.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/list_layout.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/pastdiagnosiswindow.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/pasttreatmentswindow.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/patient_view_item.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/rounded.xml" value="0.3392210144927536" />
+        <entry key="app/src/main/res/layout/row_style.xml" value="0.5399968465169271" />
+        <entry key="app/src/main/res/menu/gender_menu.xml" value="0.4036458333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textposttreatments"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+
+        android:ems="10"
+        android:text="Past Treatments"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pDiagnosisView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pDiagnosisView"
+        app:layout_constraintTop_toBottomOf="@+id/pDiagnosisView"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <TextView
+        android:id="@+id/textsymptoms"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:text="Symptom(s)"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pTreatmentView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pTreatmentView"
+        app:layout_constraintTop_toBottomOf="@+id/pTreatmentView"
+        app:layout_constraintVertical_bias="0.199" />
+
+    <TextView
+        android:id="@+id/viewscenariotitle"
+        android:layout_width="139dp"
+        android:layout_height="44dp"
+        android:text="Scenario"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/textallergies"
+        android:layout_width="110dp"
+        android:layout_height="33dp"
+        android:ems="10"
+        android:text="Allergies:"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewscenariotitle"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+        android:id="@+id/textsmokinghistory"
+        android:layout_width="210dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:text="Smoking History:"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textallergies"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textallergies"
+        app:layout_constraintTop_toBottomOf="@+id/textallergies"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/smokingHistoryView"
+        android:layout_width="276dp"
+        android:layout_height="27dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:text="Click start to display"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textsmokinghistory"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textsmokinghistory"
+        app:layout_constraintTop_toBottomOf="@+id/textsmokinghistory"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/alchoholConsumptionHistoryView"
+        android:layout_width="280dp"
+        android:layout_height="29dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:text="Click start to display"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textalcoholconsumptionhistory"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textalcoholconsumptionhistory"
+        app:layout_constraintTop_toBottomOf="@+id/textalcoholconsumptionhistory"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <TextView
+        android:id="@+id/textalcoholconsumptionhistory"
+        android:layout_width="343dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:text="Alcohol Consumption History:"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/smokingHistoryView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/smokingHistoryView"
+        app:layout_constraintTop_toBottomOf="@+id/smokingHistoryView"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/textpostdiagnosis"
+        android:layout_width="190dp"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:text="Past Diagnoses"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/alchoholConsumptionHistoryView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/alchoholConsumptionHistoryView"
+        app:layout_constraintTop_toBottomOf="@+id/alchoholConsumptionHistoryView"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/textsymptomexplanation"
+        android:layout_width="347dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:text="Click start to display"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textsymptoms"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textsymptoms"
+        app:layout_constraintTop_toBottomOf="@+id/textsymptoms"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Button
+        android:id="@+id/buttonnext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonstart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toEndOf="@+id/buttonstart"
+        app:layout_constraintTop_toTopOf="@+id/buttonstart"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textsymptomexplanation"
+        app:layout_constraintVertical_bias="0.703" />
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonstart"
+        app:layout_constraintEnd_toStartOf="@+id/buttonstart"
+        app:layout_constraintHorizontal_bias="0.356"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonstart"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/allergiesView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click start to display"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textallergies"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toEndOf="@+id/textallergies"
+        app:layout_constraintTop_toTopOf="@+id/textallergies"
+        app:layout_constraintVertical_bias="0.586" />
+
+    <TextView
+        android:id="@+id/pDiagnosisView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click start to display"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textpostdiagnosis"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textpostdiagnosis"
+        app:layout_constraintTop_toBottomOf="@+id/textpostdiagnosis"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/pTreatmentView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click start to display"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textposttreatments"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textposttreatments"
+        app:layout_constraintTop_toBottomOf="@+id/textposttreatments"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

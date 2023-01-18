@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "575931751254",
+    "project_id": "victa-auth",
+    "storage_bucket": "victa-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575931751254:android:ba8829fe7203eb9afa54f7",
+        "android_client_info": {
+          "package_name": "com.example.victa_authenticator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575931751254-6s0a72go55ubq8c45iq5ajmehgov1m1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD34arrlGrgv8DVPgjhY9Enbzq0zpo1UHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575931751254-6s0a72go55ubq8c45iq5ajmehgov1m1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
